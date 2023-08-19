@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background: #2a2d3c;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 70vh;
+}	
+
+.container form {
+    width: 100%;
+    padding: 1rem;
+}
+
+.container form .title-box {
+    color: #f0f0f0;
+    padding: 0rem 0rem 0.8rem 0rem;
+    text-align: center;
+    width: 100%;
+}
+
+.container .input-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: none;
+    border: 1px solid #f0f0f0;
+    color: #f0f0f0;
+    border-radius: 0.4rem;
+    margin: 1rem 0;
+}
+
+.container .input-box label {
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 6px;
+    left: 0.8rem;
+    background: #2a2d3c;
+    width: 35%;
+    text-align: center;
+}
+
+.container .input-box input {
+    padding: 0.2rem 1rem 0.8rem;
+    background: none;
+    width: 100%;
+    color: #f0f0f0;
+    height: 100%;
+}
+
+
+.container .btn-box .btn {
+    width: 100%;
+    background: #6760fb;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: #f0f0f0;
+}
