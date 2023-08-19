@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PDO Studies</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			font-family: 'Poppins', sans-serif;
+			text-decoration: none;
+			border: none;
+			outline: none;
+		}
+
+		body {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			min-height: 100vh;
+			width: 100%;
+			background: #2a2d3c;
+		}
+
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			width: 350px;
+			height: 70vh;
+		}
+
+		.container .title-box {
+			color: #f0f0f0;
+			padding: 1rem;
+		}
+
+		.container .container-box {
+			display: flex;
+			justify-content: space-around;
+			width: 100%;
+		}
+
+		.container .btn-box {
+			width: 100%;
+			padding: 0.5rem;
+		}
+
+		.container .btn-box #btn-ca {
+			width: 100%;
+			background: #6760fb;
+			border-radius: 0.4rem;
+			padding: 0.8rem;
+			cursor: pointer;
+			color: #f0f0f0;
+		}
+
+		.container .btn-box #btn-re {
+			width: 100%;
+			background: none;
+			border: 1px solid #f0f0f0;
+			color: #f0f0f0;
+			cursor: pointer;
+			padding: 0.8rem;
+			border-radius: 0.4rem;
+		}
+	</style>
+</head>
+<body>
+	<main class="container">
+		<div class="title-box">
+			<h2 class="title">PDO Studies</h2>
+		</div>
+		<div class="container-box">
+			<div class="btn-box">
+				<button id="btn-ca">Cadastrar</button>
+			</div>
+			<div class="btn-box">
+				<button id="btn-re">Relatórios</button>
+			</div>			
+		</div>
+	</main>
+
+	<script src="main.js"></script>
+	<!--- 2a2d3c | 6760fb | 54d9a4 --->
+</body>
+</html>
